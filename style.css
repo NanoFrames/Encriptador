@@ -1,0 +1,307 @@
+*{
+	font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+	background: #E5E5E5;
+	}
+.logoNF{
+	width: 200px;
+	position: absolute;
+	left: 84px;
+	top: 44px;
+}
+.cuadroTexto{
+	width: 700px;
+	height: 480px;
+	position: absolute;
+    text-align: top;
+	line-height: 25px;
+	top: 150px;
+	left: 350px;
+	border: none;
+
+	color: #0A3871;
+	
+}
+.textoModificado{
+	
+	width: 400px;
+	height: 944px;
+	margin-top: 40px;
+	position: absolute;
+	position: 1000px;
+	left: 1200px;
+	padding: 10px;
+    line-height: 25px;
+	border: 3px solid #0A3871;
+	border-radius: 32px;
+	background: white;
+}
+.imgsinTexto{
+	position: absolute;
+	top: 300px;
+	left: 1250px;
+	background: white;
+}
+
+.ningunMensaje{
+	width: 350px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	position: absolute;
+	top: 625px;
+	left: 1225px;
+	background: white;
+}
+.ingresaTexto{
+	width: 350px;
+	text-align: center;
+	font-size: 15px;
+	color: #495057;
+	position: absolute;
+	top: 700px;
+	left: 1225px;
+	background: white
+}
+.condiciones{
+	
+	position: absolute;
+	top: 800px;
+	left: 350px;	
+	
+}
+.admiracion{
+	float: left;
+	padding-right: 5px;
+}
+.mensajeminusculas{
+	width:450px
+}
+.btnencriptador{
+	color: #E5E5E5;
+	width: 328px;
+	height: 67px;
+	border-radius: 24px;
+	padding: 24px;
+	gap: 8px;
+	background: #0A3871;
+
+	position: absolute;
+	top: 850px;
+	left: 350px;
+}
+.btndesencriptador{
+	width: 328px;
+	height: 67px;
+	border-radius: 24px;
+	padding: 24px;
+	gap: 8px;
+
+	/* display: flex; */
+	flex-direction: row;
+	align-items: flex-start;
+
+	position: absolute;
+	top: 850px;
+	left: 750px;
+	
+
+	background: #D8DFE8;
+	border: 1px solid #0A3871;
+	box-sizing: border-box;
+	text-align: center;
+}
+.btncopiador{
+	width: 328px;
+	height: 67px;
+	border-radius: 24px;
+	padding: 24px;
+	gap: 8px;
+
+	/* display: flex; */
+	flex-direction: row;
+	align-items: flex-start;
+
+	position: absolute;
+	top: 850px;
+	left: 1250px;
+	
+
+	background: #D8DFE8;
+	border: 1px solid #0A3871;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+@media screen and (max-width:820px){
+	.logoNF{
+		width: 100px;
+		position: absolute;
+		left: 40px;
+		top: 44px;
+	}
+	.cuadroTexto{
+		margin-left: 16px;
+		position: absolute;
+		width: 688px;
+		height: 186px;
+		left: 40px;
+		top: 200px;
+	}
+	.condiciones{
+		position: absolute;
+		top: 400px;
+		left: 40px;
+	}
+	.admiracion{
+		float: left;
+		padding-right: 5px;
+	}
+	.mensajeminusculas{
+		width: 450px;
+		
+	}
+	.btnencriptador{
+		position: absolute;
+		width: 343px;
+		height: 67px;
+		left: 40px;
+		top: 450px;
+	}
+	.btndesencriptador{
+		position: absolute;
+		width: 343px;
+		height: 67px;
+		left: 400px;
+		top: 450px;
+	}
+	.textoModificado{
+		position: absolute;
+		width: 688px;
+		height: 400px;
+		left: 40px;
+		top: 550px;
+	}
+	.imgsinTexto{
+		position: absolute;
+		top: 600px;
+		left: 200px;
+		background: white;
+		opacity: 0%;
+	}
+	.ningunMensaje{
+		width: 600px;
+		text-align: center;
+		font-size: 35px;
+		font-weight: bold;
+		position: absolute;
+		top: 750px;
+		left: 84px;
+		background: white;
+	}
+	.ingresaTexto{
+		width: 500px;
+		text-align: center;
+		font-size: 15px;
+		color: #495057;
+		position: absolute;
+		top: 850px;
+		left: 150px;
+		background: white
+	}
+	.btncopiador{
+		position: absolute;
+		width: 343px;
+		height: 67px;
+		left: 225px;
+		top: 900px;
+	}
+	
+
+} 
+@media screen and (max-width:480px){
+	.logoNF{
+		width: 100px;
+		position: absolute;
+		left: 16px;
+		top: 44px;
+	}
+	.cuadroTexto{
+		margin-left: 16px;
+		position: absolute;
+		width: 343px;
+		height: 186px;
+		left: 16px;
+		top: 200px;
+	}
+	.condiciones{
+		position: absolute;
+		top: 400px;
+		left: 16px;
+	}
+	.admiracion{
+		float: left;
+		padding-right: 5px;
+	}
+	.mensajeminusculas{
+		width: 450px;
+		
+	}
+	.btnencriptador{
+		position: absolute;
+		width: 343px;
+		height: 67px;
+		left: 16px;
+		top: 450px;
+	}
+	.btndesencriptador{
+		position: absolute;
+		width: 343px;
+		height: 67px;
+		left: 16px;
+		top: 550px;
+	}
+	.textoModificado{
+		position: absolute;
+		width: 343px;
+		height: 595px;
+		left: 16px;
+		top: 650px;
+	}
+	.imgsinTexto{
+		position: absolute;
+		top: 750px;
+		left: 19px;
+		background: white;
+		opacity: 0%;
+	}
+	.ningunMensaje{
+		width: 350px;
+		text-align: center;
+		font-size: 35px;
+		font-weight: bold;
+		position: absolute;
+		top: 750px;
+		left: 19px;
+		background: white;
+	}
+	.ingresaTexto{
+		width: 350px;
+		text-align: center;
+		font-size: 15px;
+		color: #495057;
+		position: absolute;
+		top: 850px;
+		left: 22px;
+		background: white
+	}
+	.btncopiador{
+		position: absolute;
+		width: 343px;
+		height: 67px;
+		left: 30px;
+		top: 900px;
+	}
+	
+
+} 

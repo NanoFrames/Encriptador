@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+    
+        <title>Encriptador</title>
+    
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+        
+    </head>
+
+    <body class="cuerpo">
+        <header>
+            <img class="logoNF" src="imagenes/logo.png" alt="logo">  
+        </header>
+        
+        <main>
+            <section class="cuadros"> 
+                <textarea type="text" class="cuadroTexto"  placeholder="Ingrese el texto aqui"></textarea>
+                <textarea type="text" class="textoModificado" id="textoModificado"></textarea>
+            </section>
+    
+            <section id="sinTexto">
+                <img src="imagenes/Muñeco.svg" class="imgsinTexto">
+                <p class="ningunMensaje">Ningún mensaje fue encontrado</p>
+                <p class="ingresaTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </section>
+    
+            <section>
+                <div class="condiciones">
+                    <div>
+                        <img src="imagenes/admiracion.svg" class="admiracion">
+                    </div>
+    
+                    <div class="mensajeminusculas">
+                        <h6>Solo letras minúsculas, sin tildes o caracteres especiales</h6>
+                    </div>
+                </div>
+        
+                <section class="botones">
+                    <button type="button" onclick="btEncriptar()" class="btnencriptador"> Encriptar </button>
+                    <button type="button" onclick="btDesencriptar()" class="btndesencriptador">Desencriptar</button>  
+                    <button type="button" onclick="btCopiar()" class="btncopiador">Copiar</button>   
+                </section>
+            </section>
+        </main>
+            
+        <footer>
+                
+        </footer>
+    </body>
+    <script src="encriptador.js"></script>
+
+</html>
